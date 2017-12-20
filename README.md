@@ -1,0 +1,2 @@
+# ChelAI
+Chel Discord Bot
