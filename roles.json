@@ -1,0 +1,32 @@
+{
+	"1" : {
+		"id" : "393170348696403968",
+		"name" : "Dauntless",
+		"fullName" : "dauntless"
+	},
+	"2" : {
+		"id" : "393170462542135316",
+		"name" : "Chel",
+		"fullName" : "chel"
+	},
+	"3" : {
+		"id" : "393170530041331712",
+		"name" : "Talos",
+		"fullName" : "talos"
+	},
+	"4" : {
+		"id" : "393171996013232129",
+		"name" : "Edge",
+		"fullName" : "edge"
+	},
+	"5" : {
+		"id" : "393170636601819157",
+		"name" : "Crow",
+		"fullName" : "crow"
+	},
+	"6" : {
+		"id" : "393171674826276867",
+		"name" : "Vlad",
+		"fullName" : "vlad"
+	}
+}

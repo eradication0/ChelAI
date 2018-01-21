@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "elo-rating": "^1.0.1",
+    "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
