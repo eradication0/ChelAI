@@ -1,20 +1,23 @@
 exports.run = function(discord, bot, message, args) {
-	
+	const embed = new discord.RichEmbed()
 		if (args.length === 0) {
-			message.channel.send('Not enough arguments. Possible commands: ``-char all`` ``-char chel`` ``-char edge`` ``-char talos`` ``-char vlad`` ``-char dauntless`` ``-char crow``')
+			embed.setTitle('Not enough arguments. Possible commands: ``-char all`` ``-char chel`` ``-char edge`` ``-char talos`` ``-char vlad`` ``-char dauntless`` ``-char crow``').setColor('#ff0000')
 		} else if (args[0] === "all") {
-			message.channel.send('<https://imgur.com/a/OkQAM> shoutouts to **dabis#9351** for creating these')
+			embed.setTitle('<https://imgur.com/a/OkQAM> shoutouts to **dabis#9351** for creating these').setColor('#ffff00')
 		} else if (args[0] === "chel") {
-			message.channel.send('https://imgur.com/NCJbql6')
+			embed.setTitle('https://imgur.com/NCJbql6').setColor('#00ff00')
 		} else if (args[0] === "edge") {
-			message.channel.send('https://imgur.com/b0uD4qK')
+			embed.setTitle('https://imgur.com/b0uD4qK').setColor('#00ff00')
 		} else if (args[0] === "talos") {
-			message.channel.send('https://imgur.com/5sUJxDF')
+			embed.setTitle('https://imgur.com/5sUJxDF').setColor('#00ff00')
 		} else if (args[0] === "vlad") {
-			message.channel.send('https://imgur.com/02dMYOa')
+			embed.setTitle('https://imgur.com/02dMYOa').setColor('#00ff00')
 		} else if (args[0] === "dauntless") {
-			message.channel.send('https://imgur.com/7QjczTQ')
+			embed.setTitle('https://imgur.com/7QjczTQ').setColor('#00ff00')
 		} else if (args[0] === "crow") {
-			message.channel.send('https://imgur.com/IDxqMSK')
-		} else {message.channel.send('Not found. Possible commands: ``-char all`` ``-char chel`` ``-char edge`` ``-char talos`` ``-char vlad`` ``-char dauntless`` ``-char crow``')}
+			embed.setTitle('https://imgur.com/IDxqMSK').setColor('#00ff00')
+		} else {
+			embed.setTitle('Not found. Possible commands: ``-char all`` ``-char chel`` ``-char edge`` ``-char talos`` ``-char vlad`` ``-char dauntless`` ``-char crow``').setColor('#ff0000')
+		}
+		message.channel.send({embed});
 }
